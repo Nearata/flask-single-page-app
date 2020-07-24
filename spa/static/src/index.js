@@ -1,0 +1,18 @@
+import m from "mithril";
+import UserList from "./views/UserList";
+import UserForm from "./views/UserForm";
+import Layout from "./views/Layout";
+
+m.route.prefix = "";
+m.route(document.body, "/", {
+    "/": {
+        render: () => {
+            return m(Layout, m(UserList))
+        }
+    },
+    "/edit/:id": {
+        render: vnode => {
+            return m(Layout, m(UserForm, vnode.attrs))
+        }
+    }
+});
