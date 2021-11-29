@@ -9,13 +9,6 @@ Just a simple implementation of the Mithril.js [Simple Application](https://mith
 - Python 3.8
 - Pipenv
 
-## License
+## Unlicense
 
-Distributed under the MIT license. See `LICENSE` for more information.
-
-## Contributing
-
-1. Fork it
-2. Commit your changes
-3. Push to the branch
-4. Create a new Pull Request
+See [UNLICENSE](UNLICENSE) for more information.
